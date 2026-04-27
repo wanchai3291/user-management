@@ -1,0 +1,11 @@
+name: "workflow"
+
+on:
+  push: [ main ]
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        run: echo "Checkout code"
