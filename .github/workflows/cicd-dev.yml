@@ -1,8 +1,10 @@
 name: "cicd dev workflow"
 
 on:
-  push: [ develop ]
-  
+  push:
+    branches:
+      - develop
+
 jobs:
   build:
     runs-on: ubuntu-latest
