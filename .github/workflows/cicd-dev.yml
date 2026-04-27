@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        runs: echo "Checkout code"
+        run: echo "Checkout code"
