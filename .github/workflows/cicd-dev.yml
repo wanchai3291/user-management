@@ -1,4 +1,4 @@
-name: "workflow"
+name: "cicd dev workflow"
 
 on:
   push: [ develop ]
