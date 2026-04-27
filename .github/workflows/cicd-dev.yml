@@ -1,12 +1,11 @@
 name: "workflow"
 
 on:
-  push:
-    branches: [ develop ]
+  push: [ develop ]
   
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        runs: echo "Checkout code"
+        run: echo "Checkout code"
